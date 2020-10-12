@@ -5,6 +5,10 @@
 **Install instructions**
 
 ``` bash
+
+# clone this repository
+git clone https://github.com/leosantana/dps-senior-frontend-test.git
+
 # install dependencies
 npm install
 
