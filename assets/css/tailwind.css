@@ -1,0 +1,11 @@
+@import url('./fonts.css');
+
+@tailwind base;
+
+html {
+	background-color: #CED7E0;
+	font-family: 'Proxima Nova', sans-serif;
+  }
+
+@tailwind components;
+@tailwind utilities;

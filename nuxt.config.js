@@ -27,13 +27,16 @@ export default {
 	 */
 	buildModules: [
 		// Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-		'@nuxtjs/tailwindcss'
+		'@nuxtjs/tailwindcss',
+		'@neneos/nuxt-animate.css'
 	],
 
 	/*
 	 * Nuxt.js modules
 	 */
-	modules: [],
+	modules: [
+		'@neneos/nuxt-animate.css'
+	],
 
 	/*
 	 * Build configuration
@@ -44,5 +47,9 @@ export default {
 		 */
 		extend (config, ctx) {
 		}
+	},
+
+	tailwindcss: {
+		exposeConfig: true
 	}
 }
